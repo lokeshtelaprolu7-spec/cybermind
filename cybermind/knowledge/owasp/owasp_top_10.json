@@ -1,0 +1,30 @@
+[
+  {
+    "id": "A01:2021",
+    "title": "Broken Access Control",
+    "domain": "Web Security",
+    "description": "Restrictions on what authenticated users are allowed to do are often not properly enforced.",
+    "mitigation": "Enforce principle of least privilege, deny access by default, and implement rate limiting."
+  },
+  {
+    "id": "A03:2021",
+    "title": "Injection (SQL, NoSQL, OS Command)",
+    "domain": "Web Security",
+    "description": "User-supplied data is not validated, filtered, or sanitized by the application before execution.",
+    "mitigation": "Use parameterized queries, object-relational mapping (ORM) libraries, and input validation allowlists."
+  },
+  {
+    "id": "API1:2023",
+    "title": "Broken Object Level Authorization (BOLA)",
+    "domain": "API Security",
+    "description": "Attackers exploit API endpoints that are vulnerable to broken object level authorization by manipulating the ID of an object sent within the request.",
+    "mitigation": "Validate user authorization policies against each requested object ID."
+  },
+  {
+    "id": "API3:2023",
+    "title": "Broken Object Property Level Authorization (BOPLA)",
+    "domain": "API Security",
+    "description": "Lack of or improper validation of object properties exposed through API endpoints.",
+    "mitigation": "Enforce schema validation, reject unknown properties, and avoid mass assignment."
+  }
+]

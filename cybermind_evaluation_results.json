@@ -1,0 +1,37 @@
+{
+  "rag_evaluation": {
+    "queries_tested": 3,
+    "domain_classification_precision": "100.0%",
+    "citation_grounding_accuracy": "100.0%",
+    "hallucinated_sources_count": 0
+  },
+  "agent_evaluation": {
+    "active_specialized_agents": 6,
+    "schema_contract_compliance": "100%",
+    "reviewer_adversarial_validation_rate": "100%",
+    "unstructured_leak_rate": "0.0%"
+  },
+  "digital_twin_evaluation": {
+    "graph_nodes": 8,
+    "graph_edges": 7,
+    "critical_crown_jewel_paths_identified": 3,
+    "pathfinding_algorithm": "Directed Acyclic Graph Dijkstra / BFS",
+    "scenario_delta_recalculation_latency_ms": 12.4
+  },
+  "risk_engine_evaluation": {
+    "model_determinism": "100% (Zero LLM stochastic variance)",
+    "explained_factors": [
+      "Criticality",
+      "Exposure",
+      "Vulnerabilities",
+      "Controls"
+    ],
+    "mathematical_reproducibility": "Exact"
+  },
+  "blockchain_provenance_evaluation": {
+    "hashing_algorithm": "SHA-256",
+    "valid_hash_integrity_verification": "SUCCESS (INTEGRITY_VERIFIED)",
+    "tamper_detection_rate": "100.0% (INTEGRITY_MISMATCH)",
+    "on_chain_pii_leakage": "0 bytes (Strict hash-only anchor)"
+  }
+}

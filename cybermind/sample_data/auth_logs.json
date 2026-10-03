@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-09-29T22:15:00.120Z",
+    "event_id": "AUTH-4625",
+    "service": "Keycloak-AUTH-01",
+    "source_ip": "198.51.100.88",
+    "target_user": "root",
+    "auth_method": "OAuth2-Password-Grant",
+    "status": "FAILURE",
+    "reason": "INVALID_CREDENTIALS",
+    "user_agent": "Mozilla/5.0 (Hydra-BruteForce-Automated)"
+  },
+  {
+    "timestamp": "2026-09-29T22:15:00.350Z",
+    "event_id": "AUTH-4625",
+    "service": "Keycloak-AUTH-01",
+    "source_ip": "198.51.100.88",
+    "target_user": "admin",
+    "auth_method": "OAuth2-Password-Grant",
+    "status": "FAILURE",
+    "reason": "INVALID_CREDENTIALS",
+    "user_agent": "Mozilla/5.0 (Hydra-BruteForce-Automated)"
+  },
+  {
+    "timestamp": "2026-09-29T22:15:00.610Z",
+    "event_id": "AUTH-4625",
+    "service": "Keycloak-AUTH-01",
+    "source_ip": "198.51.100.88",
+    "target_user": "secops",
+    "auth_method": "OAuth2-Password-Grant",
+    "status": "FAILURE",
+    "reason": "INVALID_CREDENTIALS",
+    "user_agent": "Mozilla/5.0 (Hydra-BruteForce-Automated)"
+  },
+  {
+    "timestamp": "2026-09-29T22:17:30.400Z",
+    "event_id": "AUTH-4624",
+    "service": "Keycloak-AUTH-01",
+    "source_ip": "198.51.100.88",
+    "target_user": "svc_backup",
+    "auth_method": "OAuth2-Password-Grant",
+    "status": "SUCCESS",
+    "token_issued": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+    "user_agent": "Mozilla/5.0 (Custom-Client)"
+  }
+]

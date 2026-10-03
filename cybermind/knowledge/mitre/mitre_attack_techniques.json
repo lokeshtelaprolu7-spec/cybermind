@@ -1,0 +1,26 @@
+[
+  {
+    "id": "T1190",
+    "name": "Exploit Public-Facing Application",
+    "tactic": "Initial Access",
+    "domain": "Threat Intelligence",
+    "description": "Adversaries may attempt to exploit a weakness in an Internet-facing host or system to gain access.",
+    "mitigations": ["M1041 - Encrypt Sensitive Information", "M1038 - Execution Prevention", "M1050 - Exploit Protection"]
+  },
+  {
+    "id": "T1110.004",
+    "name": "Brute Force: Credential Stuffing",
+    "tactic": "Credential Access",
+    "domain": "SOC / Incident Response",
+    "description": "Adversaries may use credentials obtained from breach dumps to attempt automated login on external portals.",
+    "mitigations": ["M1032 - Multi-factor Authentication", "M1036 - Account Use Policies"]
+  },
+  {
+    "id": "T1530",
+    "name": "Data from Cloud Storage Object",
+    "tactic": "Collection",
+    "domain": "Cloud Security",
+    "description": "Adversaries may access data objects from cloud storage (e.g. AWS S3 buckets) that have permissive read access.",
+    "mitigations": ["M1047 - Audit", "M1018 - User Account Management"]
+  }
+]
