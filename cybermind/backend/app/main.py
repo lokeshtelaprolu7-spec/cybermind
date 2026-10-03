@@ -179,12 +179,16 @@ app.include_router(evidence_router, prefix=settings.API_V1_STR)
 app.include_router(reports_router, prefix=settings.API_V1_STR)
 app.include_router(knowledge_router, prefix=settings.API_V1_STR)
 
+@app.get("/", tags=["Root"])
 @app.get(f"{settings.API_V1_STR}", tags=["Root"])
 def api_root():
     return {
-        "message": f"Welcome to {settings.APP_NAME} API v{settings.APP_VERSION}",
-        "docs": "/docs",
-        "health": "/health"
+        "service": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+        "status": "online",
+        "documentation": "/docs",
+        "health": "/health",
+        "api_v1": settings.API_V1_STR
     }
 
 if __name__ == "__main__":
